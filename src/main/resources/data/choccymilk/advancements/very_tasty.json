@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "display": {
+      "icon": {
+        "item": "choccymilk:ecc_milk"
+      },
+      "title": {
+         "text": "Very Tasty!",
+         "color": "white",
+         "bold": true,
+         "obfuscated": false
+      },
+      "description": {
+        "text": "Drink Extra Chocolatey Chocolate Milk"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+  "rewards": {
+    "experience": 500
+  },
+  "criteria": {
+    "chocolate_milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "choccymilk:ecc_milk"
+        }
+      }
+    }
+  }
+}

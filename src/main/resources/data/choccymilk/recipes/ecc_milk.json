@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "choccymilk:chocolate_milk"
+        }
+    ],
+    "result": {
+        "item": "choccymilk:ecc_milk",
+        "count": 1
+    }
+}
