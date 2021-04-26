@@ -22,8 +22,6 @@ public class choccymilk
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final String modid = "choccymilk";
     
-	
-	
 	public choccymilk() {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		bus.addListener(this::setup);
@@ -34,10 +32,7 @@ public class choccymilk
 	}
 	
 	
-	
-	
 	private void setup(final FMLCommonSetupEvent event) {
-		
 		
 	}
 	
